@@ -27,8 +27,12 @@ public class AutoPathing extends OpMode {
                 .addPath(new BezierLine(startPose, shootPose))
                 .setLinearHeadingInterpolation(startPose.getHeading(), shootPose.getHeading())
                 .build();
-      //public void statePathUpdate{
-Override public void init() {
+        //public void statePathUpdate{
+    }
+
+
+    @Override
+    public void init() {
     }
 
     @Override
